@@ -86,7 +86,7 @@ class prankcall{
 	}
 	public function run(){
 		while(true){
-			echo "root@.Mr.yM=# Kirim Mode Manual/Tidak ?(y/t) : ";
+			echo "root@.Rysnanto=# Kirim Mode Manual/Tidak ?(y/t) : ";
 			$loop = $this->get();
 			if($loop=="y" OR $loop=="t"){
 				break;
@@ -96,7 +96,7 @@ class prankcall{
 			}
 		}
 		if($loop=="y"){
-			echo "root@.Mr.yM=# Masukan Jumlah Spam #-> ";
+			echo "root@.Rysnanto=# Masukan Jumlah Spam #-> ";
 			$many = $this->get();
 			$this->loop($many);
 		}else{
